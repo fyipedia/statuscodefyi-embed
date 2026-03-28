@@ -1,6 +1,6 @@
 {
   "name": "statuscodefyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed StatusCodeFYI widgets — HTTP/SMTP/gRPC status code cards, protocol details, error scenarios. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
