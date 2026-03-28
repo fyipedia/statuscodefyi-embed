@@ -1,0 +1,44 @@
+{
+  "name": "statuscodefyi-embed",
+  "version": "1.0.0",
+  "description": "Embed StatusCodeFYI widgets — HTTP/SMTP/gRPC status code cards, protocol details, error scenarios. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "http",
+    "status-code",
+    "error-code",
+    "smtp",
+    "grpc",
+    "protocol",
+    "404",
+    "500",
+    "embed",
+    "widget",
+    "statuscodefyi",
+    "statuscodefyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "networkfyi"
+  ],
+  "homepage": "https://widget.statuscodefyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/statuscodefyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/statuscodefyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
