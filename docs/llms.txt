@@ -1,0 +1,26 @@
+# StatusCodeFYI Embed Widget
+
+> Embeddable StatusCodeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/statuscodefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://statuscodefyi.com
+- Widget docs: https://widget.statuscodefyi.com
+- npm: https://www.npmjs.com/package/statuscodefyi-embed
+- GitHub: https://github.com/fyipedia/statuscodefyi-embed
+- API: https://statuscodefyi.com/developers/
+
+## Network FYI Widget Family
+
+- [CableFYI Widget](https://widget.cablefyi.com)
+- [TLDFYI Widget](https://widget.tldfyi.com)
+- [IPFYI Widget](https://widget.ipfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
