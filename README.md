@@ -150,6 +150,17 @@ Part of [FYIPedia](https://fyipedia.com) — open-source developer tools ecosyst
 | unitfyi | [PyPI](https://pypi.org/project/unitfyi/) | [npm](https://www.npmjs.com/package/unitfyi) | Unit conversion, 220 units — [unitfyi.com](https://unitfyi.com) |
 | fyipedia | [PyPI](https://pypi.org/project/fyipedia/) | — | Unified CLI for all FYI tools — [fyipedia.com](https://fyipedia.com) |
 
+## Embed Widget
+
+Embed [StatusCodeFYI](https://statuscodefyi.com) widgets on any website with [statuscodefyi-embed](https://widget.statuscodefyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/statuscodefyi-embed@1/dist/embed.min.js"></script>
+<div data-statuscodefyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.statuscodefyi.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
