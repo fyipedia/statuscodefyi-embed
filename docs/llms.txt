@@ -1,21 +1,52 @@
 # StatusCodeFYI Embed Widget
 
-> Embeddable StatusCodeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> HTTP status codes, protocols. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/statuscodefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/statuscodefyi-embed@1/dist/embed.min.js"></script>
+<div data-statuscodefyi="protocol" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-statuscodefyi="entity"`
+- glossary: `data-statuscodefyi="glossary"`
+- guide: `data-statuscodefyi="guide"`
+- compare: `data-statuscodefyi="compare"`
+- search: `data-statuscodefyi="search"`
+- faq: `data-statuscodefyi="faq"`
+- protocol (interactive): `data-statuscodefyi="protocol"`
+- scenario (interactive): `data-statuscodefyi="scenario"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-statuscodefyi="protocol" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/statuscodefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://statuscodefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://statuscodefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://statuscodefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://statuscodefyi.com
 - Widget docs: https://widget.statuscodefyi.com
-- npm: https://www.npmjs.com/package/statuscodefyi-embed
+- API documentation: https://statuscodefyi.com/developers/
+- npm package: https://www.npmjs.com/package/statuscodefyi-embed
 - GitHub: https://github.com/fyipedia/statuscodefyi-embed
-- API: https://statuscodefyi.com/developers/
 
-## Network FYI Widget Family
+## Network FYI Widget Network
 
 - [CableFYI Widget](https://widget.cablefyi.com)
 - [TLDFYI Widget](https://widget.tldfyi.com)
