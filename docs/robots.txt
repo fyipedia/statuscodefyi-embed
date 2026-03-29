@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# StatusCodeFYI Embed Widget
+# Main site: https://statuscodefyi.com
+# Widget docs: https://widget.statuscodefyi.com
+# npm: https://www.npmjs.com/package/statuscodefyi-embed
